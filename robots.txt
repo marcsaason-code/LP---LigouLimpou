@@ -1,0 +1,50 @@
+# ============================================
+# robots.txt - Ligou Limpou Serviços de Limpeza
+# https://www.ligoulimpouserv.com.br/
+# ============================================
+
+# Permite que TODOS os robôs de busca indexem o site
+User-agent: *
+Allow: /
+
+# Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Google Imagens
+User-agent: Googlebot-Image
+Allow: /
+
+# Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 0
+
+# Yahoo
+User-agent: Slurp
+Allow: /
+
+# DuckDuckGo
+User-agent: DuckDuckBot
+Allow: /
+
+# Yandex
+User-agent: YandexBot
+Allow: /
+
+# Bloqueia robôs maliciosos / scrapers
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+# Localização do Sitemap
+Sitemap: https://www.ligoulimpouserv.com.br/sitemap.xml
